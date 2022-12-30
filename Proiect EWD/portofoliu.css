@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.link {
+  color: black;
+}
+
+.hover:hover {
+  transform: scale(1.2);
+  color: inherit;
+}
+
+.album {
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr 2.5fr;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 4rem;
+  justify-items: center;
+}
+
+.album a {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.hover {
+  transform: scale(1.1);
+}
+
+.card__cover {
+  width: 100%;
+}
+
+.card__cover p {
+  text-align: center;
+}
+
+.card__content {
+  flex: 1;
+}
+
+.js-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 1rem .5rem 1rem;
+}
+
+::placeholder {
+  text-align: center; 
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  align-self:center;
+  margin-top: auto;
+}
+
+@media (max-width: 1080px) {
+  .album {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .album {
+    grid-template-columns: 1fr;
+  }
+
+  .extra-padding {
+    padding-right: 0;
+  }
+}
