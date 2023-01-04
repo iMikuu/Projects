@@ -1,3 +1,7 @@
-<p>body works!</p>
-
-<i class="bi bi-airplane-engines"></i>  <!-- bootstrap icons use example, will delete later -->
+<body>
+  <p>body works! 
+    <button class="btn" (click)="logClick()" *ngIf="buttonDisabled == false">
+      <i class="bi bi-balloon"></i>
+    </button>
+  </p>
+</body>

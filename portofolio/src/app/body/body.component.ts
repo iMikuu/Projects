@@ -6,10 +6,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent implements OnInit {
+  count = 0;
+  buttonDisabled = false;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  logClick() {
+    this.count++;
+    console.log("times you clicked the balloon: " + this.count);
+    if(this.count == 10) {
+      this.buttonDisabled = true;
+      alert("that's enough, balloon privilegies revoked");
+    }
   }
 
 }
