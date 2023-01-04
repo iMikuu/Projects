@@ -11,8 +11,4 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  openGithub() {
-    window.open("https://github.com/iMikuu", "_blank");
-  }
 }
