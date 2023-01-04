@@ -19,8 +19,7 @@ export class BodyComponent implements OnInit {
     console.log("times you clicked the balloon: " + this.count);
     if(this.count == 10) {
       this.buttonDisabled = true;
-      alert("that's enough, balloon privilegies revoked");
+      alert("that's enough, balloon privileges revoked");
     }
   }
-
 }

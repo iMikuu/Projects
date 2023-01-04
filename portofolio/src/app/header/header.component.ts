@@ -15,5 +15,4 @@ export class HeaderComponent implements OnInit {
   openGithub() {
     window.open("https://github.com/iMikuu", "_blank");
   }
- 
 }
