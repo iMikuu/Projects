@@ -17,7 +17,7 @@ export class BodyComponent implements OnInit {
   logClick() {
     this.count++;
     console.log("times you clicked the balloon: " + this.count);
-    if(this.count == 10) {
+    if(this.count == 5) {
       this.buttonDisabled = true;
       alert("that's enough, balloon privileges revoked");
     }
