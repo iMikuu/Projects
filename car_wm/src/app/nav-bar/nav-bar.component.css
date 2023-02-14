@@ -1,0 +1,15 @@
+.nav-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 0 .5rem 0;
+  height: 100%;
+}
+
+.nav-flex a {
+  margin-left: 3rem;
+}
+
+.nav-text {
+  color: hsl(0, 0%, 88%);
+}
