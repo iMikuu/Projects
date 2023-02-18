@@ -13,3 +13,7 @@
 .nav-text {
   color: hsl(0, 0%, 88%);
 }
+
+.activebutton { /* to be modified at a later date  */
+  color: hsl(240, 100%, 50%); 
+}
