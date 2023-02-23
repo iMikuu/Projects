@@ -3,7 +3,6 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  color: white;
   text-align: center;
 }
 
@@ -16,4 +15,13 @@
 
 .center {
   padding: 1rem 2rem 1rem 2rem;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: white;
+}
+
+i {
+  margin-right: 3px;
 }
